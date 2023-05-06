@@ -1,0 +1,23 @@
+h3 {
+    padding: 2rem;
+}
+
+.counter-container {
+    width: 45rem;
+    height: 15rem;
+    margin: 2rem;
+}
+
+.status-indicator {
+    background-color: green;
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 1rem;
+}
+
+.card-body {
+    width: 80%;
+    height: 100%;
+    padding: 0.5rem;
+}
