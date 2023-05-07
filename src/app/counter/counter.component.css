@@ -9,7 +9,6 @@ h3 {
 }
 
 .status-indicator {
-    background-color: green;
     float: left;
     width: 20%;
     height: 100%;
@@ -20,4 +19,12 @@ h3 {
     width: 80%;
     height: 100%;
     padding: 0.5rem;
+}
+
+.enabled {
+    background-color: green;
+}
+
+.notEnabled {
+    background-color: red;
 }
