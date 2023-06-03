@@ -1,0 +1,41 @@
+h3 {
+    font-size: large;
+}
+
+.summary-container {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.counter-container {
+    width: 45rem;
+    height: 17rem;
+    margin: 2rem 0rem;
+}
+
+.status-indicator {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 1rem;
+}
+
+.card-body {
+    width: 120%;
+    height: 120%;
+    padding: 0.5rem 0rem;
+}
+
+.notBusy {
+    background-color: green;
+}
+
+.busy {
+    background-color: red;
+}
+
+.disabled {
+    background-color: grey;
+}
+

@@ -1,0 +1,26 @@
+<div class="summary-container">
+    <h3>Currently serving: {{servingData.numServing}}</h3>
+    <h3>Latest taken number: {{servingData.latestNumber}}</h3>
+    <div class="counter-container" *ngFor="let counter of counters; index as i">
+        <div class="status-indicator"
+            [ngClass]="{'disabled' : counter.disabled, 'notBusy': !counter.busy && !counter.disabled, 'busy': counter.busy && !counter.disabled}">
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">{{"Counter " + counter.id}}</h2>
+            <h4 class="status-text">{{counter.disabled ? 'Status: disabled' : (!counter.busy ? 'Status: available' :
+                'Status: busy')}}</h4>
+            <h4 *ngIf="!counter.disabled && counter.busy">Current number: Order {{counter.numServing}}</h4>
+            <button type="button" class="btn btn-success" [disabled]="counter.busy || counter.disabled"
+                (click)="counterTakeNext(counter.id)">Take
+                new</button>
+            <button type="button" class="btn btn-info" [disabled]="!counter.busy || counter.disabled"
+                (click)="counterCompleteCurrent(counter.id)">Complete
+                current</button>
+            <button type="button" class="btn btn-danger" [disabled]="counter.busy"
+                (click)="toggleCounterDisabled(counter.id)">
+                {{!counter.disabled ? 'Disable counter' : 'Enable counter'}}
+            </button>
+        </div>
+    </div>
+    <a routerLink="/customer" routerLinkActive="active">Navigate to customer view</a>
+</div>
