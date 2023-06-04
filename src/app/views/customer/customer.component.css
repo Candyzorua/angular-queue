@@ -1,0 +1,21 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+app-counters, app-summary {
+    display: flex; 
+    justify-content:center; 
+    align-items:center;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    margin: 1rem;
+}
+
+

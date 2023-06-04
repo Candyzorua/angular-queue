@@ -1,7 +1,10 @@
-<h1>Customer View</h1>
+<div class="container">
+    <h1>Customer View</h1>
 
-<app-summary/>
+    <app-summary />
 
-<button mat-stroked-button color="primary" (click)="takeNextNumber()">Take next number</button>
+    <button class="takeNewButton" mat-stroked-button color="primary" (click)="takeNextNumber()">Take next
+        number</button>
 
-<app-counters [showButtons]="false"/>
+    <app-counters [showButtons]="false" />
+</div>
