@@ -20,6 +20,7 @@ h3 {
 
 mat-grid-list {
     width: 65%;
+    padding-bottom: 0% !important; 
 }
 
 .counter-card {
@@ -28,5 +29,5 @@ mat-grid-list {
 }
 
 .summary-container {
-    width: 60%;
+    width: 65%;
 }
