@@ -1,0 +1,25 @@
+.notBusy {
+    background-color: green;
+}
+
+.busy {
+    background-color: red;
+}
+
+.disabled {
+    background-color: grey;
+}
+
+.card-img-top {
+    height: 3rem;
+}
+
+mat-grid-list {
+    width: 65%;
+    padding-bottom: 0% !important; 
+}
+
+.counter-card {
+    width: calc(97.5%);
+    height: calc(95%);
+}

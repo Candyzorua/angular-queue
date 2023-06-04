@@ -12,14 +12,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
-
+import { CountersComponent } from './views/subcomponents/counters/counters.component';
+import { SummaryComponent } from './views/subcomponents/summary/summary.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerComponent,
-    AdminComponent
+    AdminComponent,
+    CountersComponent,
+    SummaryComponent,
   ],
   imports: [
     CommonModule,
