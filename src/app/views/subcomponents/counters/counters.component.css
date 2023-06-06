@@ -32,5 +32,8 @@ mat-card-title, mat-card-subtitle {
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+mat-card-title {
     font-size: 1.6rem; 
 }
