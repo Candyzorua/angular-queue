@@ -5,7 +5,7 @@
                 <div
                     [ngClass]="{'disabled' : counter.disabled, 'notBusy': !counter.busy && !counter.disabled, 'busy': counter.busy && !counter.disabled}">
                 </div>
-                <mat-card-title>{{"Counter " + counter.id}}</mat-card-title>
+                <mat-card-title>{{"COUNTER " + counter.id}}</mat-card-title>
                 <mat-card-subtitle [ngClass]="counter.disabled ? 'disabled' : (!counter.busy ? 'notBusy' :
                 'busy')">{{counter.disabled ? 'Status: disabled' : (!counter.busy ? 'Status: available' :
                     'Status: busy')}}</mat-card-subtitle>

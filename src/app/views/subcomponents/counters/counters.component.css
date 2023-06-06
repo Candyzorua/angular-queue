@@ -1,9 +1,9 @@
 .notBusy {
-    color: green;
+    color: rgb(9, 90, 60);
 }
 
 .busy {
-    color: red;
+    color: rgb(178, 10, 10);
 }
 
 .disabled {
@@ -16,7 +16,7 @@
 
 mat-grid-list {
     width: 65%;
-    padding-bottom: 0% !important; 
+    padding-bottom: 0% !important;
 }
 
 mat-card {
@@ -25,4 +25,12 @@ mat-card {
     height: calc(95%);
     justify-content: center;
     align-items: center;
+    background-color: #e7f1f5;
+}
+
+mat-card-title, mat-card-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.2rem; 
 }

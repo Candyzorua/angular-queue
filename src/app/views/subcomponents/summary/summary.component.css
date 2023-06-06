@@ -3,4 +3,10 @@ mat-card {
     justify-content: center;
     align-items: center;
     width: 65%;
+    background-color: #D9D9D9
+}
+
+mat-card-title {
+    margin: 1.2rem;
+    font-size: 1.3rem;
 }

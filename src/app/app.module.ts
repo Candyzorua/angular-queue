@@ -34,6 +34,6 @@ import { SummaryComponent } from './views/subcomponents/summary/summary.componen
     MatToolbarModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
