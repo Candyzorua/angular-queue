@@ -10,3 +10,7 @@ app-counters, app-summary {
     justify-content:center; 
     align-items:center;
 }
+
+app-summary {
+    margin-bottom: 1rem;
+}
